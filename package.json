@@ -1,0 +1,26 @@
+{
+  "name": "pipe-lines",
+  "version": "0.1.0",
+  "keywords": [
+    "stream",
+    "transform",
+    "pipe-lines",
+    "pipe",
+    "lines"
+  ],
+  "description": "A Stream pipe to split the stream into lines",
+  "homepage": "https://github.com/morphar/pipe-lines",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morphar/pipe-lines.git"
+  },
+  "author": {
+    "name": "Dan Larsen",
+    "email": "dan@techba.se",
+    "url": "http://github.com/morphar"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morphar/pipe-lines/issues"
+  }
+}
