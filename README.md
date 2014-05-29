@@ -2,6 +2,7 @@
 A Stream pipe to split the stream into lines
 
 --
+
 Example:
 ```JavaScript
 var PipeLines = require('pipe-lines');
