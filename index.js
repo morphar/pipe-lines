@@ -12,9 +12,9 @@ PipeLines.prototype._transform = function(chunk, encoding, done) {
   chunk = this.lastLine + chunk.toString();
   var lines = chunk.split('\n');
   this.lastLine = lines.pop();
-  lines.forEach(function(line) {
-    this.push(line);
-  }.bind(this));
+  for(var i in lines) {
+    this.push(lines[i]);
+  }
   done();
 };
 
